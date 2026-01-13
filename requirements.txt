@@ -1,0 +1,6 @@
+langchain
+openai
+lark-parser
+pydantic
+python-dotenv
+google-generativeai

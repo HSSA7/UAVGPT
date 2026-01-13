@@ -1,0 +1,754 @@
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 14:40:50
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: ARM | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: TAKEOFF | Params: {'altitude': 15}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=15.0)
+   ✅ [Safety] Altitude (15.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (15.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: SPEED | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=15.0)
+   ✅ [Safety] Altitude (15.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (15.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: MOVE | Params: {'direction': 'NORTH', 'distance': 100}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=100.0, z=15.0)
+   ✅ [Safety] Altitude (15.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (15.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (100.0m) inside Radius (500.0m).
+
+[Step 5] ACTION: YAW | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=100.0, z=15.0)
+   ✅ [Safety] Altitude (15.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (15.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (100.0m) inside Radius (500.0m).
+
+[Step 6] ACTION: MOVE | Params: {'direction': 'EAST', 'distance': 50}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=15.0)
+   ✅ [Safety] Altitude (15.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (15.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 7] ACTION: CIRCLE | Params: {'radius': 20}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=15.0)
+   ✅ [Safety] Altitude (15.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (15.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 8] ACTION: MOVE | Params: {'direction': 'UP', 'distance': 15}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 9] ACTION: CIRCLE | Params: {'radius': 20}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 10] ACTION: MOVE | Params: {'direction': 'UP', 'distance': 15}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=45.0)
+   ✅ [Safety] Altitude (45.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (45.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 11] ACTION: HOLD | Params: {}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=45.0)
+   ✅ [Safety] Altitude (45.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (45.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 12] ACTION: WAIT | Params: {}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=100.0, z=45.0)
+   ✅ [Safety] Altitude (45.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (45.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (111.8m) inside Radius (500.0m).
+
+[Step 13] ACTION: GOTO | Params: {'x': 0, 'y': 0, 'z': 50}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 14] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 15:20:52
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 15:21:05
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: GIMBAL | Params: {'pitch': -90}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 15:21:22
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: ROI | Params: {'x': 50, 'y': 50, 'z': 0}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 15:21:32
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: SERVO | Params: {'id': 1, 'pwm': 1100}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+==================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 16:03:19
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: ARM | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: TAKEOFF | Params: {'altitude': 25}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: SPEED | Params: {'value': 20}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: GOTO | Params: {'x': 100, 'y': 100}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 5] ACTION: ROI | Params: {'x': 150, 'y': 100}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 6] ACTION: GIMBAL | Params: {'pitch': -30}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 7] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 8] ACTION: SERVO | Params: {'id': 1, 'action': 'OPEN'}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 9] ACTION: WAIT | Params: {'duration': 3}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 10] ACTION: ROI | Params: {'action': 'CLEAR'}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 11] ACTION: RETURN | Params: {}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=25.0)
+   ✅ [Safety] Altitude (25.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (25.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+
+[Step 12] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=100.0, y=100.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (141.4m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 16:17:38
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: ARM | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: TAKEOFF | Params: {'altitude': 30}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: SPEED | Params: {'value': 25}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: GOTO | Params: {'x': 80, 'y': 80}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 5] ACTION: YAW | Params: {'angle': 90}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 6] ACTION: ROI | Params: {'x': 120, 'y': 80}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 7] ACTION: GIMBAL | Params: {'pitch': -45}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 8] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 9] ACTION: SERVO | Params: {'id': 1, 'action': 'OPEN'}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 10] ACTION: WAIT | Params: {'duration': 5}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 11] ACTION: ROI | Params: {'action': 'STOP'}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=30.0)
+   ✅ [Safety] Altitude (30.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (30.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 12] ACTION: MOVE | Params: {'direction': 'UP', 'distance': 20}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 13] ACTION: CIRCLE | Params: {'radius': 15}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 14] ACTION: RETURN | Params: {}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+
+[Step 15] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=80.0, y=80.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (113.1m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 17:03:07
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: ARM | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: TAKEOFF | Params: {'altitude': 40}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: SPEED | Params: {'value': 25}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: GOTO | Params: {'x': 50, 'y': 50}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 5] ACTION: YAW | Params: {'angle': 90}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 6] ACTION: ROI | Params: {'x': 100, 'y': 50}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 7] ACTION: GIMBAL | Params: {'pitch': -45}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 8] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 9] ACTION: SERVO | Params: {'id': 1, 'action': 'OPEN'}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 10] ACTION: WAIT | Params: {'duration': 5}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 11] ACTION: ROI | Params: {'action': 'STOP'}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 12] ACTION: MOVE | Params: {'direction': 'UP', 'distance': 10}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 13] ACTION: CIRCLE | Params: {'radius': 20}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 14] ACTION: RETURN | Params: {}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=50.0)
+   ✅ [Safety] Altitude (50.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (50.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 15] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 17:34:42
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: TAKEOFF | Params: {'altitude': 100}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=100.0)
+   ✅ [Safety] Altitude (100.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (100.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: YAW | Params: {'direction': 'RIGHT', 'angle': 30}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=100.0)
+   ✅ [Safety] Altitude (100.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (100.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: MOVE | Params: {'direction': 'NORTHEAST', 'distance': 100}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=100.0, z=100.0)
+   ✅ [Safety] Altitude (100.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (100.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (100.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: ROI | Params: {'coordinates': '(50,50)'}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=100.0, z=100.0)
+   ✅ [Safety] Altitude (100.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (100.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (100.0m) inside Radius (500.0m).
+
+[Step 5] ACTION: RETURN | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=100.0, z=100.0)
+   ✅ [Safety] Altitude (100.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (100.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (100.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 18:20:57
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: TAKEOFF | Params: {'altitude': 20}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: YAW | Params: {'angle': 30}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: MOVE | Params: {'direction': 'FORWARD', 'distance': 20}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: YAW | Params: {'angle': 360}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 5] ACTION: GOTO | Params: {'x': 40, 'y': 50}
+   ℹ️  [State] Predicted Pos: (x=40.0, y=50.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (64.0m) inside Radius (500.0m).
+
+[Step 6] ACTION: SERVO | Params: {'action': 'DROP'}
+   ℹ️  [State] Predicted Pos: (x=40.0, y=50.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (64.0m) inside Radius (500.0m).
+
+[Step 7] ACTION: RETURN | Params: {}
+   ℹ️  [State] Predicted Pos: (x=40.0, y=50.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (64.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 18:27:11
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: TAKEOFF | Params: {'altitude': 20}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: MOVE | Params: {'direction': 'NORTH', 'distance': 20}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=20.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (20.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: YAW | Params: {'angle': 90}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=20.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (20.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: MOVE | Params: {'direction': 'FORWARD', 'distance': 20}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=20.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (20.0m) inside Radius (500.0m).
+
+[Step 5] ACTION: ROI | Params: {'x': 50, 'y': 50}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=20.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (20.0m) inside Radius (500.0m).
+
+[Step 6] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=20.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (20.0m) inside Radius (500.0m).
+
+[Step 7] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=20.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (20.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-08 18:31:06
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: ARM | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: TAKEOFF | Params: {'altitude': 40}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: GOTO | Params: {'x': 50, 'y': -50}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=-50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 4] ACTION: MOVE | Params: {'direction': 'NORTH', 'distance': 100}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 5] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=50.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (70.7m) inside Radius (500.0m).
+
+[Step 6] ACTION: MOVE | Params: {'direction': 'EAST', 'distance': 20}
+   ℹ️  [State] Predicted Pos: (x=70.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (86.0m) inside Radius (500.0m).
+
+[Step 7] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=70.0, y=50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (86.0m) inside Radius (500.0m).
+
+[Step 8] ACTION: MOVE | Params: {'direction': 'SOUTH', 'distance': 100}
+   ℹ️  [State] Predicted Pos: (x=70.0, y=-50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (86.0m) inside Radius (500.0m).
+
+[Step 9] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=70.0, y=-50.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (86.0m) inside Radius (500.0m).
+
+[Step 10] ACTION: GOTO | Params: {'x': 0, 'y': 0}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 11] ACTION: SERVO | Params: {'id': 1, 'action': 'DROP'}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 12] ACTION: YAW | Params: {'angle': 360}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=40.0)
+   ✅ [Safety] Altitude (40.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (40.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 13] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-09 16:04:09
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: TAKEOFF | Params: {'altitude': 20}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: CIRCLE | Params: {'radius': 5}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
+
+============================================================
+
+==================================================
+MISSION VALIDATION REPORT | 2025-12-09 16:08:07
+Mission ID: mission_auto
+--------------------------------------------------
+
+[Step 1] ACTION: TAKEOFF | Params: {'altitude': 20}
+   ✅ [Syntax] Required param 'altitude' found.
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 2] ACTION: CIRCLE | Params: {'radius': 5}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 3] ACTION: TRIGGER | Params: {'action': 'PHOTO'}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=20.0)
+   ✅ [Safety] Altitude (20.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (20.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+
+[Step 4] ACTION: LAND | Params: {}
+   ℹ️  [State] Predicted Pos: (x=0.0, y=0.0, z=0.0)
+   ✅ [Safety] Altitude (0.0m) >= Ground (0.0m).
+   ✅ [Safety] Altitude (0.0m) <= Ceiling (120.0m).
+   ✅ [Geofence] Distance (0.0m) inside Radius (500.0m).
+--------------------------------------------------
+CONCLUSION: ✅ PASSED
+All safety constraints satisfied.
+==================================================
